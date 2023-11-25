@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Portfolio</title>
+</head>
+<body>
+ <div id="portfolio">
+    <h1>Featured Projects</h1>
+    <div class="projects">
+      <!-- Featured projects will be added here -->
+    </div>
+    <h1>All Projects</h1>
+    <div class="projects">
+      <!-- All projects will be added here -->
+    </div>
+ </div>
+
+ <script>
+    let portfolio = {
+      projects: [
+        {
+          title: "To Do List",
+          description: "A simple to do list web app.",
+          url: "https://todolist.example.com",
+          techStack: ["React", "Node.js", "MongoDB"],
+          featured: true,
+        },
+        {
+          title: "Blog Site",
+          description: "A responsive blog site with admin dashboard.",
+          url: "https://blogsite.example.com",
+          techStack: ["Angular", "Node.js", "MySQL"],
+          featured: false,
+        },
+        {
+          title: "E-commerce Site",
+          description: "A fully functional e-commerce web app.",
+          url: "https://ecommerce.example.com",
+          techStack: ["React", "Node.js", "Redis"],
+          featured: false,
+        },
+      ],
+    };
